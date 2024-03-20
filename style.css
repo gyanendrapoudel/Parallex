@@ -80,11 +80,11 @@ nav{
 }
 .link a:hover{
     transform: scale(1.1);
-    color: red;
+    color: rgb(111, 77, 77);
 }
 .logo:hover{
 transform: scale(1.1);
-    color: red;
+    color: rgb(111, 77, 77);
 }
 .content{
     margin-top:50px;
@@ -147,6 +147,22 @@ transform: scale(1.1);
      background-attachment: fixed;
 
     
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width:550px) {
+    .vedio-content{
+        display: absolute;
+        top:50%;
+        left: 20px;
+    }
+
 }
 @keyframes move {
     0%{
