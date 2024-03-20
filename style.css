@@ -118,6 +118,7 @@ transform: scale(1.1);
 .img1{
     background: url('./assests/coffee.jpeg') no-repeat center ;
     background-size: cover;
+    background-attachment: fixed;
     
 
     
@@ -126,6 +127,7 @@ transform: scale(1.1);
 .img2{
     background: url('./assests/roll.jpeg') no-repeat center ;
     background-size: cover;
+     background-attachment: fixed;
   
 
     
@@ -134,6 +136,7 @@ transform: scale(1.1);
 .img3{
     background: url('./assests/toast.jpeg') no-repeat center ;
     background-size: cover;
+     background-attachment: fixed;
 
     
 }
@@ -141,6 +144,7 @@ transform: scale(1.1);
 .img4{
     background: url('./assests/bread.jpg') no-repeat center ;
     background-size: cover;
+     background-attachment: fixed;
 
     
 }
