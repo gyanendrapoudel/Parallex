@@ -1,0 +1,162 @@
+:root{
+    --shadow--:1px 1px 10px 2px rgb(202, 91, 43);
+}
+body{
+    margin: 0px;
+   
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+   width: 80%;
+   margin:auto;
+   
+}
+.hero{
+    height: 90vh;
+    position: relative;
+   
+}
+.hero video{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+
+}
+.vedio-content{
+   position: absolute;
+   color:wheat;
+   top:50%;
+   left: 100px;
+   padding: 0 10px;
+   border-radius: 10px;
+   box-shadow: 1px 1px 10px 1px white;
+   background-color: rgba(62, 58, 58, 0.346);
+   backdrop-filter: blur(5px);
+}
+.down-icon{
+    color: red;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: rotate(90deg);
+    font-size: 8rem;
+    font-weight: 700;
+    animation: move 1s linear infinite;
+}
+nav{
+    background-color: rgb(87, 169, 112);
+    position: sticky;
+    z-index: 100;
+    top:20px;
+    
+    
+}
+.navigation{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.logo{
+    transition: transform 0.15s;
+   padding: 20px 0;
+   font-size: 30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.link{
+   display: flex;
+   gap:20px;
+   transition: transform 0.15s;
+   padding: 20px 0;
+   font-size: 30px;
+}
+.link a:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.logo:hover{
+transform: scale(1.1);
+    color: red;
+}
+.content{
+    margin-top:50px;
+}
+.content>h2{
+    margin-bottom: 30px;
+}
+.content>h2,.content>p{
+    text-align: center;
+}
+
+[class^="img"]{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    font-size: 1.5rem;
+    background-color: rgba(56, 53, 52, 0.664);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow:var(--shadow--);
+    backdrop-filter: blur(10px);
+    
+    
+}
+.img1{
+    background: url('./assests/coffee.jpeg') no-repeat center ;
+    background-size: cover;
+    
+
+    
+}
+
+.img2{
+    background: url('./assests/roll.jpeg') no-repeat center ;
+    background-size: cover;
+  
+
+    
+}
+
+.img3{
+    background: url('./assests/toast.jpeg') no-repeat center ;
+    background-size: cover;
+
+    
+}
+
+.img4{
+    background: url('./assests/bread.jpg') no-repeat center ;
+    background-size: cover;
+
+    
+}
+@keyframes move {
+    0%{
+        left: 50%;
+        bottom: 50px;
+    }
+    50%{
+        left: 50%;
+        bottom: 20px;
+        
+    }
+    100%{
+        left: 50%;
+        bottom: 0px;
+    }
+    
+}
